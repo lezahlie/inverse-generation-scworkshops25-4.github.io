@@ -2,7 +2,7 @@
 
 <h1 id="links">Quick Links</h1>
 
-- [Paper](#paper)
+- [Publication](#publication)
 - [Supplementary Materials](#supplementary-materials)
 - [Project Code](#project-code)
 - [Simulation and Datasets](#simulation-and-datasets)
@@ -14,13 +14,13 @@
 
 ---
 
-<h1 id="paper">Inverse Design for Generating Initial Conditions in Scientific Simulations</h1>
+<h1 id="publication">Inverse Design for Generating Initial Conditions in Scientific Simulations</h1>
 
 > Leslie Horace, Christin Whitton, Vanessa Job, William Jones, Nathan DeBardeleben  
 > SC Workshops '25 | St Louis, MO, USA | November 17, 2025  
-> **DOI:** `10.1145/3731599.3767343` | **LA-UR:** `LA-UR-25-28137`
+> **DOI:** [`10.1145/3731599.3767343`](https://doi.org/10.1145/3731599.3767343) | **LA-UR:** `LA-UR-25-28137`
 
-<img src="./figures/acm_doi_qr_code.svg" width="22%" alt="DOI QR code"/>
+<img src="./figures/acm_doi_qr_code.svg" width="30%" alt="DOI QR code"/>
 
 ---
 
@@ -30,7 +30,7 @@
 
 - **Code release:** `Coming soon!` 
 
-> Please refer to Readme.md for reproducing paper experiments.
+<!-- > Please refer to README.md for setting up the project and running the paper experiments. -->
 
 <h3 id="simulation-and-datasets">Simulation and Datasets</h3>
 
@@ -38,7 +38,7 @@
 
 - **Dataset download:** https://oceans11.lanl.gov/electrostaticEquations/  
   
-    <img src="./figures/electrostatic_dataset_qr_code.svg" width="22%" alt="Electrostatic dataset QR code"/>
+    <img src="./figures/electrostatic_dataset_qr_code.svg" width="30%" alt="Electrostatic dataset QR code"/>
 
 - **Simulation code:** https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1
 
@@ -64,10 +64,9 @@
 <h3 id="heat-diffusion">Heat Diffusion</h3>
 
 
-
 - **Dataset download:** Paper Experiments Dataset (same host as above)  
 
-    <img src="./figures/heat_dataset_qr_code.svg" width="22%" alt="Heat diffusion dataset QR code"/>
+    <img src="./figures/heat_dataset_qr_code.svg" width="30%" alt="Heat diffusion dataset QR code"/>
 
 - **Simulation code:** https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0
 
@@ -100,21 +99,20 @@
 
 ```bibtex
 @inproceedings{10.1145/3731599.3767343,
-author = {Horace, Leslie and Whitton, Christin and Job, Vanessa and Jones, William and DeBardeleben, Nathan},
-title = {Inverse Design for Generating Initial Conditions in Scientific Simulations},
-year = {2025},
-isbn = {9798400718717},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3731599.3767343},
-doi = {10.1145/3731599.3767343},
-abstract = {We propose a conditional normalizing flow (CNF) surrogate model to solve generative, many-to-one inverse problems in scientific simulations governed by partial differential equations (PDEs) with time-evolving interactions between heterogeneous materials. We present two case studies: electrostatic potential and heat diffusion, which serve as proxy simulations for generating diverse sets of initial conditions that can reproduce an observed output state (transient or steady). Finally, we provide a comprehensive overview of the synthetic datasets, the model specification, each stage of the experimental workflow, evaluation of training performance, and uncertainty quantification for the generated samples.},
-booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
-pages = {29–36},
-numpages = {8},
-keywords = {generative inverse design, machine learning surrogate modeling, conditional normalizing flow (CNF), negative log-likelihood (NLL)},
-location = {
-},
-series = {SC Workshops '25}
+  author = {Horace, Leslie and Whitton, Christin and Job, Vanessa and Jones, William and DeBardeleben, Nathan},
+  title = {Inverse Design for Generating Initial Conditions in Scientific Simulations},
+  year = {2025},
+  isbn = {9798400718717},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3731599.3767343},
+  doi = {10.1145/3731599.3767343},
+  abstract = {We propose a conditional normalizing flow (CNF) surrogate model to solve generative, many-to-one inverse problems in scientific simulations governed by partial differential equations (PDEs) with time-evolving interactions between heterogeneous materials. We present two case studies: electrostatic potential and heat diffusion, which serve as proxy simulations for generating diverse sets of initial conditions that can reproduce an observed output state (transient or steady). Finally, we provide a comprehensive overview of the synthetic datasets, the model specification, each stage of the experimental workflow, evaluation of training performance, and uncertainty quantification for the generated samples.},
+  booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages = {29–36},
+  numpages = {8},
+  keywords = {generative inverse design, machine learning surrogate modeling, conditional normalizing flow (CNF), negative log-likelihood (NLL)},
+  location = {St. Louis, MO, USA},
+  series = {SC Workshops '25}
 }
 ```
