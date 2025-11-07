@@ -20,7 +20,7 @@
 > SC Workshops '25 | St Louis, MO, USA | November 17, 2025  
 > **DOI:** [`10.1145/3731599.3767343`](https://doi.org/10.1145/3731599.3767343) | **LA-UR:** `LA-UR-25-28137`
 
-<img src="./figures/acm_doi_qr_code.svg" width="50%" alt="DOI QR code"/>
+<img src="./figures/acm_doi_qr_code.svg" width="40%" alt="DOI QR code"/>
 
 ---
 
@@ -38,7 +38,7 @@
 
 - **Dataset download:** [https://oceans11.lanl.gov/electrostaticEquations/](https://oceans11.lanl.gov/electrostaticEquations/)
   
-    <img src="./figures/electrostatic_dataset_qr_code.svg" width="50%" alt="Electrostatic dataset QR code"/>
+    <img src="./figures/electrostatic_dataset_qr_code.svg" width="40%" alt="Electrostatic dataset QR code"/>
 
 - **Simulation code:** [https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1](https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1)
 
@@ -66,7 +66,7 @@
 
 - **Dataset download:** [https://oceans11.lanl.gov/heatEquations/](https://oceans11.lanl.gov/heatEquations/)
 
-    <img src="./figures/heat_dataset_qr_code.svg" width="50%" alt="Heat diffusion dataset QR code"/>
+    <img src="./figures/heat_dataset_qr_code.svg" width="40%" alt="Heat diffusion dataset QR code"/>
 
 - **Simulation code:** [https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0](https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0)
 
