@@ -20,7 +20,7 @@
 > SC Workshops '25 | St Louis, MO, USA | November 17, 2025  
 > **DOI:** [`10.1145/3731599.3767343`](https://doi.org/10.1145/3731599.3767343) | **LA-UR:** `LA-UR-25-28137`
 
-<img src="./figures/acm_doi_qr_code.svg" width="30%" alt="DOI QR code"/>
+<img src="./figures/acm_doi_qr_code.svg" width="50%" alt="DOI QR code"/>
 
 ---
 
@@ -36,11 +36,11 @@
 
 <h3 id="electrostatic-potential-esp">Electrostatic Potential (ESP)</h3>
 
-- **Dataset download:** https://oceans11.lanl.gov/electrostaticEquations/  
+- **Dataset download:** [https://oceans11.lanl.gov/electrostaticEquations/](https://oceans11.lanl.gov/electrostaticEquations/)
   
-    <img src="./figures/electrostatic_dataset_qr_code.svg" width="30%" alt="Electrostatic dataset QR code"/>
+    <img src="./figures/electrostatic_dataset_qr_code.svg" width="50%" alt="Electrostatic dataset QR code"/>
 
-- **Simulation code:** https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1
+- **Simulation code:** [https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1](https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1)
 
     > Reproduce the dataset:
     > ```bash
@@ -64,11 +64,11 @@
 <h3 id="heat-diffusion">Heat Diffusion</h3>
 
 
-- **Dataset download:** Paper Experiments Dataset (same host as above)  
+- **Dataset download:** [https://oceans11.lanl.gov/heatEquations/](https://oceans11.lanl.gov/heatEquations/)
 
-    <img src="./figures/heat_dataset_qr_code.svg" width="30%" alt="Heat diffusion dataset QR code"/>
+    <img src="./figures/heat_dataset_qr_code.svg" width="50%" alt="Heat diffusion dataset QR code"/>
 
-- **Simulation code:** https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0
+- **Simulation code:** [https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0](https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0)
 
     > Reproduce the dataset:
     > ```bash
