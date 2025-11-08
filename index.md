@@ -44,21 +44,21 @@
 
   <details title="Reproduce the dataset" markdown="1" > 
   <summary>Reproduce the dataset</summary>
-    ```bash
-    python esp_simulation/create_dataset.py \
-      --output-path="path/to/datasets" \
-      --output-folder="electrostatic_dataset_1k" \
-      --min-seed=1 \
-      --max-seed=1000 \
-      --seed-step=100 \
-      --ntasks=1 \
-      --image-size=32 \
-      --max-iterations=2000 \
-      --convergence-tolerance=1e-4 \
-      --conductive-cell-prob=0.5 \
-      --conductive-material-range=1,10 \
-      --save-states="first-20,interval-100"
-    ``` 
+  ```bash
+  python esp_simulation/create_dataset.py \
+    --output-path="path/to/datasets" \
+    --output-folder="electrostatic_dataset_1k" \
+    --min-seed=1 \
+    --max-seed=1000 \
+    --seed-step=100 \
+    --ntasks=1 \
+    --image-size=32 \
+    --max-iterations=2000 \
+    --convergence-tolerance=1e-4 \
+    --conductive-cell-prob=0.5 \
+    --conductive-material-range=1,10 \
+    --save-states="first-20,interval-100"
+  ``` 
   </details>
 
 
@@ -73,21 +73,21 @@
 
   <details title="Reproduce the dataset" markdown="1" > 
   <summary>Reproduce the dataset</summary>
-    ```bash
-    python heat_diffusion_simulation/create_dataset.py \
-      --output-path="path/to/datasets" \
-      --output-folder="heat_diffusion_dataset_1k" \
-      --min-seed=1 \
-      --max-seed=1000 \
-      --seed-step=100 \
-      --ntasks=1 \
-      --grid-length=32 \
-      --max-iterations=5000 \
-      --boundary-condition="neumann" \
-      --solver-name="crank_nicolson" \
-      --convergence-tolerance=1e-4 \
-      --save-states="first-20,interval-100"
-    ```
+  ```bash
+  python heat_diffusion_simulation/create_dataset.py \
+    --output-path="path/to/datasets" \
+    --output-folder="heat_diffusion_dataset_1k" \
+    --min-seed=1 \
+    --max-seed=1000 \
+    --seed-step=100 \
+    --ntasks=1 \
+    --grid-length=32 \
+    --max-iterations=5000 \
+    --boundary-condition="neumann" \
+    --solver-name="crank_nicolson" \
+    --convergence-tolerance=1e-4 \
+    --save-states="first-20,interval-100"
+  ```
   </details>
 
 
