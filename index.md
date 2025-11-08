@@ -38,30 +38,28 @@
 
 - **Dataset download:** [https://oceans11.lanl.gov/electrostaticEquations/](https://oceans11.lanl.gov/electrostaticEquations/)
   
-    <img src="./figures/electrostatic_dataset_qr_code.svg" width="40%" alt="Electrostatic dataset QR code"/>
+  <img src="./figures/electrostatic_dataset_qr_code.svg" width="40%" alt="Electrostatic dataset QR code"/>
 
 - **Simulation code:** [https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1](https://github.com/lezahlie/esp_simulation/releases/tag/v2.4.1)
 
-    <details title="Reproduce the dataset">
-      <summary>Reproduce the dataset</summary>
-
-  ```bash
-  python esp_simulation/create_dataset.py \
-    --output-path="path/to/datasets" \
-    --output-folder="electrostatic_dataset_1k" \
-    --min-seed=1 \
-    --max-seed=1000 \
-    --seed-step=100 \
-    --ntasks=1 \
-    --image-size=32 \
-    --max-iterations=2000 \
-    --convergence-tolerance=1e-4 \
-    --conductive-cell-prob=0.5 \
-    --conductive-material-range=1,10 \
-    --save-states="first-20,interval-100"
-  ``` 
-
-    </details>
+  <details title="Reproduce the dataset" markdown="1" > 
+  <summary>Reproduce the dataset</summary>
+    ```bash
+    python esp_simulation/create_dataset.py \
+      --output-path="path/to/datasets" \
+      --output-folder="electrostatic_dataset_1k" \
+      --min-seed=1 \
+      --max-seed=1000 \
+      --seed-step=100 \
+      --ntasks=1 \
+      --image-size=32 \
+      --max-iterations=2000 \
+      --convergence-tolerance=1e-4 \
+      --conductive-cell-prob=0.5 \
+      --conductive-material-range=1,10 \
+      --save-states="first-20,interval-100"
+    ``` 
+  </details>
 
 
 <h3 id="heat-diffusion">Heat Diffusion</h3>
@@ -69,13 +67,12 @@
 
 - **Dataset download:** [https://oceans11.lanl.gov/heatEquations/](https://oceans11.lanl.gov/heatEquations/)
 
-    <img src="./figures/heat_dataset_qr_code.svg" width="40%" alt="Heat diffusion dataset QR code"/>
+  <img src="./figures/heat_dataset_qr_code.svg" width="40%" alt="Heat diffusion dataset QR code"/>
 
 - **Simulation code:** [https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0](https://github.com/lezahlie/heat_diffusion_simulation/releases/tag/v1.0.0)
 
-    <details title="Reproduce the dataset"> 
-      <summary>Reproduce the dataset</summary>
-
+  <details title="Reproduce the dataset" markdown="1" > 
+  <summary>Reproduce the dataset</summary>
     ```bash
     python heat_diffusion_simulation/create_dataset.py \
       --output-path="path/to/datasets" \
@@ -91,8 +88,8 @@
       --convergence-tolerance=1e-4 \
       --save-states="first-20,interval-100"
     ```
+  </details>
 
-    </details>
 
 <h2 id="citations">Citations</h2>
 
