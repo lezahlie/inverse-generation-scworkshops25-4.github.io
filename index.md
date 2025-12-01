@@ -4,6 +4,7 @@
 <h2 id="links">Quick Links</h2>
 
 - [Read the Paper](#read-paper)
+- [Presentation](#presentation)
 - [Project Code](#project-code)
 - [Simulated Datasets](#simulations-and-datasets)
   - [Electrostatic Potential](#electrostatic-potential)
@@ -24,13 +25,15 @@
   
   <img src="./figures/acm_doi_qr_code.svg" width="40%" alt="DOI QR code"/>
 
+<h2 id="presentation">Presentation Slides</h2>
+
+  - **SC Workshop: AI4S 2025 Presentation:** [Download Slides](./documents/animated-presentation-scworkshops25-4.pptx)
 
 <h2 id="project-code">Project Code</h2>
 
 - **GitHub Repository:** *Coming soon!*
 
 <!-- > Please refer to README.md for setting up the project and running the paper experiments. -->
-
 
 <h2 id="simulated-datasets">Simulated Datasets</h2>
 
