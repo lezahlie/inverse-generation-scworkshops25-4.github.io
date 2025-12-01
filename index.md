@@ -4,7 +4,7 @@
 <h2 id="links">Quick Links</h2>
 
 - [Read the Paper](#read-paper)
-- [Presentation](#presentation)
+- [Presentation Slides](#presentation)
 - [Project Code](#project-code)
 - [Simulated Datasets](#simulations-and-datasets)
   - [Electrostatic Potential](#electrostatic-potential)
@@ -28,6 +28,8 @@
 <h2 id="presentation">Presentation Slides</h2>
 
   - **SC Workshop: AI4S 2025 Presentation:** [Download Slides](./documents/animated-presentation-scworkshops25-4.pptx)
+    > LA-UR: `LA-UR-25-31047`
+  
 
 <h2 id="project-code">Project Code</h2>
 
