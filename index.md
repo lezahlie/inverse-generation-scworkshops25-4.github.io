@@ -22,7 +22,7 @@
 > DOI: `10.1145/3731599.3767343` | LA-UR: `LA-UR-25-28137`
 
 - **ACM DOI:** <https://doi.org/10.1145/3731599.3767343>  
-  
+
   <img src="./figures/acm_doi_qr_code.svg" width="40%" alt="DOI QR code"/>
 
 <h2 id="presentation">Presentation Slides</h2>
@@ -33,9 +33,9 @@
 
 <h2 id="project-code">Project Code</h2>
 
-- **GitHub Repository:** *Coming soon!*
+- **GitHub Repository:** [https://github.com/lanl/inverse-cnf](https://github.com/lanl/inverse-cnf)
 
-<!-- > Please refer to README.md for setting up the project and running the paper experiments. -->
+  > Please refer to README.md for setting up the project and running the paper experiments.
 
 <h2 id="simulated-datasets">Simulated Datasets</h2>
 
