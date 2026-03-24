@@ -35,13 +35,14 @@
 
 - **GitHub Repository:** [https://github.com/lanl/inverse-cnf](https://github.com/lanl/inverse-cnf)
 
-  > Please refer to README.md for setting up the project and running the paper experiments.
+  > - Please refer to README.md for setting up the project and running the paper experiments.
+  > - Note that the simulation codes below are also included in the project code. 
 
 <h2 id="simulated-datasets">Simulated Datasets</h2>
 
 <h3 id="electrostatic-potential">Electrostatic Potential</h3>
 
-- **Dataset download:** [https://oceans11.lanl.gov/electrostaticEquations/](https://oceans11.lanl.gov/electrostaticEquations/)
+- **Dataset download:** [https://doi.org/10.25583/3022777](https://doi.org/10.25583/3022777)
   
   <img src="./figures/electrostatic_dataset_qr_code.svg" width="40%" alt="Electrostatic dataset QR code"/>
 
@@ -49,6 +50,7 @@
 
   <details title="Reproduce the dataset" markdown="1" > 
   <summary>Reproduce the dataset</summary>
+
   ```bash
   python esp_simulation/create_dataset.py \
     --output-path="path/to/datasets" \
@@ -70,7 +72,7 @@
 <h3 id="heat-diffusion">Heat Diffusion</h3>
 
 
-- **Dataset download:** [https://oceans11.lanl.gov/heatEquations/](https://oceans11.lanl.gov/heatEquations/)
+- **Dataset download:** [https://doi.org/10.25583/3022783](https://doi.org/10.25583/3022783)
 
   <img src="./figures/heat_dataset_qr_code.svg" width="40%" alt="Heat diffusion dataset QR code"/>
 
@@ -78,6 +80,7 @@
 
   <details title="Reproduce the dataset" markdown="1" > 
   <summary>Reproduce the dataset</summary>
+
   ```bash
   python heat_diffusion_simulation/create_dataset.py \
     --output-path="path/to/datasets" \
@@ -117,7 +120,7 @@
   doi = {10.1145/3731599.3767343},
   abstract = {We propose a conditional normalizing flow (CNF) surrogate model to solve generative, many-to-one inverse problems in scientific simulations governed by partial differential equations (PDEs) with time-evolving interactions between heterogeneous materials. We present two case studies: electrostatic potential and heat diffusion, which serve as proxy simulations for generating diverse sets of initial conditions that can reproduce an observed output state (transient or steady). Finally, we provide a comprehensive overview of the synthetic datasets, the model specification, each stage of the experimental workflow, evaluation of training performance, and uncertainty quantification for the generated samples.},
   booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
-  pages = {29–36},
+  pages = {29--36},
   numpages = {8},
   keywords = {generative inverse design, machine learning surrogate modeling, conditional normalizing flow (CNF), negative log-likelihood (NLL)},
   location = {St. Louis, MO, USA},
