@@ -117,7 +117,7 @@
   doi = {10.1145/3731599.3767343},
   abstract = {We propose a conditional normalizing flow (CNF) surrogate model to solve generative, many-to-one inverse problems in scientific simulations governed by partial differential equations (PDEs) with time-evolving interactions between heterogeneous materials. We present two case studies: electrostatic potential and heat diffusion, which serve as proxy simulations for generating diverse sets of initial conditions that can reproduce an observed output state (transient or steady). Finally, we provide a comprehensive overview of the synthetic datasets, the model specification, each stage of the experimental workflow, evaluation of training performance, and uncertainty quantification for the generated samples.},
   booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
-  pages = {29–36},
+  pages = {29--36},
   numpages = {8},
   keywords = {generative inverse design, machine learning surrogate modeling, conditional normalizing flow (CNF), negative log-likelihood (NLL)},
   location = {St. Louis, MO, USA},
